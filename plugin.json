@@ -27,9 +27,7 @@
     "platform": {
         "php": ">=7.3 <8.1"
     },
-    "dependencies": {
-       
-    },
+    "dependencies": { },
     "serviceProvider": "Novalnet\\Providers\\NovalnetServiceProvider",
     "runOnBuild": [
         "Novalnet\\Migrations\\CreateNovalnetPaymentMethods1220",
